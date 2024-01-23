@@ -1,3 +1,4 @@
+ 
 *{
     margin: 0;
     padding: 0;
@@ -289,7 +290,7 @@ select{
     margin-left: 1em;
 }
 .video{
-    height: 241px;
+    height: 290px;
     width:428px;
     background: #f9ce0d;
     position: absolute;
@@ -311,8 +312,8 @@ select{
         height: 300px;
     }
     .video{
-        width:380px;
-           
+        width:350px;
+        height: 280px;   
     }
 
     .text{
@@ -421,11 +422,11 @@ video{
 /* FOURTH PAGE*/
  
 .video2{
-    height: 180px;
+    height: 200px;
     width:320px;
     /* background: #f9ce0d; */
     position: absolute;
-    margin-top: -7em;
+    margin-top: -8em;
 }
 
 #img2{
@@ -437,10 +438,10 @@ video{
 
 /*FOR RESPONSIVE*/
 @media only screen and (max-width:500px) {
-    video2{
-        height: 150px;
-        width:250px;
-       
+    .video2{
+        height: 165px;
+        width:260px;
+        /* background-color: #fff; */
         margin-top: -5em;
     }
     
